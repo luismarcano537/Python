@@ -7,6 +7,8 @@ for n in range(0, 7):
     else:
         numeros[1].append(num)
 
+numeros[0].sort()
+numeros[1].sort()
 print(f"Foram digitados os seguintes números pares: {numeros[0]}")
 print(f"Foram digitados os seguintes números ímpares: {numeros[1]}")
 print()
